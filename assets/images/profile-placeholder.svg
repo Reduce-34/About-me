@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141a2b"/>
+      <stop offset="100%" stop-color="#0b0f1a"/>
+    </linearGradient>
+    <linearGradient id="person" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6d5efc"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="70" fill="url(#person)" opacity="0.9"/>
+  <path d="M70 380 C70 270 330 270 330 380 Z" fill="url(#person)" opacity="0.9"/>
+  <text x="200" y="360" text-anchor="middle" font-family="Poppins, Segoe UI, sans-serif" font-size="14" fill="#5b6478">
+    GANTI DENGAN FOTO ANDA
+  </text>
+</svg>

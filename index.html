@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ================= SEO META ================= -->
+  <!-- EDIT: ganti "Nama Lengkap" di title & description dengan nama asli Anda -->
+  <title>Gading Bimoseno Alfaiz — Calon IT Support & Mahasiswa Teknik Komputer</title>
+  <meta name="description" content="Portfolio Gading Bimoseno Alfaiz, mahasiswa Teknik Komputer dan calon IT Support. Fokus pada hardware troubleshooting, jaringan komputer, sistem operasi, dan pengembangan web dasar." />
+  <meta name="keywords" content="IT Support, Teknik Komputer, Portfolio, Hardware Troubleshooting, Networking, Web Developer Pemula" />
+  <meta name="author" content="Gading Bimoseno Alfaiz" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#05070d" />
+  <link rel="canonical" href="https://namaanda.github.io/" />
+
+  <!-- ================= Open Graph / Social Preview ================= -->
+  <!-- EDIT: ganti og:url dan og:image setelah website di-deploy -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gading Bimoseno Alfaiz — Calon IT Support & Mahasiswa Teknik Komputer" />
+  <meta property="og:description" content="Portfolio profesional: hardware troubleshooting, jaringan komputer, sistem operasi, dan web development dasar." />
+  <meta property="og:url" content="https://namaanda.github.io/" />
+  <meta property="og:image" content="assets/images/og-image.png" />
+  <meta property="og:locale" content="id_ID" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gading Bimoseno Alfaiz — Calon IT Support & Mahasiswa Teknik Komputer" />
+  <meta name="twitter:description" content="Portfolio profesional: hardware troubleshooting, jaringan komputer, sistem operasi, dan web development dasar." />
+  <meta name="twitter:image" content="assets/images/og-image.png" />
+
+  <!-- ================= Favicon ================= -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <!-- ================= Fonts ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ================= Styles (order matters) ================= -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- ================= Structured data (SEO) ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gading Bimoseno Alfaiz",
+    "jobTitle": "Calon IT Support",
+    "description": "Mahasiswa Teknik Komputer yang fokus pada IT Support, hardware troubleshooting, dan jaringan komputer.",
+    "url": "https://namaanda.github.io/",
+    "email": "mailto:gbimoseno@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/voltage_master/",
+      "https://www.linkedin.com/in/gading-bimoseno-05a496410",
+      "https://github.com/Reduce-34"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ================= Loading Screen ================= -->
+  <div class="loader">
+    <div class="loader-logo">Gading<span style="color:var(--accent-2)">.</span>dev</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- ================= Custom Cursor ================= -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- ================= Scroll Progress ================= -->
+  <div class="scroll-progress"></div>
+
+  <!-- ================= Navbar ================= -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">Gading<span class="dot">.</span>dev</a>
+
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#techstack" class="nav-link">Tech Stack</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark / light mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= 1. HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero-bg"><canvas id="particles-canvas"></canvas></div>
+
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Halo, perkenalkan saya</p>
+          <h1 class="hero-name">Gading Bimoseno Alfaiz</h1>
+          <h2 class="hero-role"><span id="typing-text"></span><span class="cursor-blink">|</span></h2>
+          <p class="hero-desc">
+            Mahasiswa Teknik Komputer yang bersemangat membangun karier di bidang IT Support —
+            terbiasa menangani troubleshooting hardware &amp; software, dasar jaringan komputer,
+            serta selalu antusias mempelajari teknologi baru.
+          </p>
+
+          <div class="hero-buttons">
+            <!-- EDIT: pastikan file CV sudah diletakkan di assets/cv/ (lihat assets/cv/README.txt) -->
+            <a href="assets/cv/CV-Gading-Bimoseno-Alfaiz.pdf" download class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <div class="hero-socials">
+            <!-- EDIT: ganti seluruh href di section sosial media (di sini & di Contact / Footer) -->
+            <a href="https://www.instagram.com/voltage_master/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/gading-bimoseno-05a496410" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://github.com/Reduce-34" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="hero-image-wrapper">
+            <!-- EDIT: ganti dengan foto profil profesional Anda -->
+            <img src="assets/images/profile-placeholder.svg" alt="Foto profil Gading Bimoseno Alfaiz" width="360" height="360" />
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span>Scroll</span>
+        <span class="mouse"></span>
+      </a>
+    </section>
+
+    <!-- ================= 2. ABOUT ================= -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Mengenal Saya Lebih <span class="highlight">Dekat</span></h2>
+          <p class="section-desc">Profil singkat tentang semangat belajar dan arah karier saya di dunia IT.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Saya memulai perjalanan teknis saya di SMK Taruna Bangsa, jurusan Rekayasa Perangkat Lunak,
+              di mana saya membangun fondasi di dua sisi sekaligus: pengembangan aplikasi web dengan
+              HTML, CSS, dan Laravel, serta pengoperasian sistem berbasis Linux, perakitan, dan
+              troubleshooting perangkat keras PC. Kini saya melanjutkan studi di Universitas Jenderal
+              Soedirman untuk memperdalam pemahaman saya di bidang teknologi informasi.
+            </p>
+            <p>
+              Saya percaya fondasi teknis yang kuat harus diimbangi dengan kemampuan problem solving dan
+              komunikasi yang baik saat membantu pengguna. Karena itu saya terus mengasah kemampuan
+              troubleshooting hardware &amp; software, dasar administrasi sistem Linux, serta terbiasa
+              menggunakan Git untuk mengelola project.
+            </p>
+            <p>
+              Target saya adalah berkarier sebagai IT Support yang menguasai troubleshooting hardware
+              dan software, administrasi sistem Linux, serta mampu menerjemahkan masalah teknis ke dalam
+              solusi yang mudah dipahami pengguna.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-card glass reveal">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/></svg>
+                </div>
+                <h4>Hardware</h4>
+                <p>Perakitan, perawatan &amp; troubleshooting perangkat keras komputer.</p>
+              </div>
+              <div class="highlight-card glass reveal reveal-delay-1">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h4>Software</h4>
+                <p>Instalasi, konfigurasi sistem operasi, dan dasar pengembangan web.</p>
+              </div>
+              <div class="highlight-card glass reveal reveal-delay-2">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </div>
+                <h4>Jaringan</h4>
+                <p>Pemahaman dasar konfigurasi &amp; troubleshooting jaringan komputer.</p>
+              </div>
+              <div class="highlight-card glass reveal reveal-delay-3">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/></svg>
+                </div>
+                <h4>Troubleshooting</h4>
+                <p>Analisis &amp; penyelesaian masalah teknis secara sistematis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats-wrapper reveal">
+            <div class="about-stats">
+              <div class="stat-card glass">
+                <div class="stat-number" data-count="6" data-suffix="+">0</div>
+                <div class="stat-label">Project Dibuat</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" data-count="3" data-suffix="+">0</div>
+                <div class="stat-label">Tahun Belajar IT</div>
+              </div>
+              <div class="stat-card glass">
+                <div class="stat-number" data-count="13" data-suffix="+">0</div>
+                <div class="stat-label">Skill Dikuasai</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. SKILLS ================= -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Kemampuan &amp; <span class="highlight">Keahlian</span></h2>
+          <p class="section-desc">Kombinasi kemampuan teknis IT Support dengan dasar pengembangan web.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Kategori 1 -->
+          <div class="skill-category glass reveal">
+            <h3 class="skill-category-title">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/></svg></span>
+              IT Support &amp; Hardware
+            </h3>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>IT Support</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Hardware Troubleshooting</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Troubleshooting</span><span>88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="88"></div></div>
+            </div>
+          </div>
+
+          <!-- Kategori 2 -->
+          <div class="skill-category glass reveal reveal-delay-1">
+            <h3 class="skill-category-title">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span>
+              Sistem Operasi &amp; Jaringan
+            </h3>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Windows</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Linux Dasar</span><span>70%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Networking</span><span>75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="75"></div></div>
+            </div>
+          </div>
+
+          <!-- Kategori 3 -->
+          <div class="skill-category glass reveal reveal-delay-2">
+            <h3 class="skill-category-title">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+              Web Development
+            </h3>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>HTML</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>CSS</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>JavaScript</span><span>70%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Laravel</span><span>65%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="65"></div></div>
+            </div>
+          </div>
+
+          <!-- Kategori 4 -->
+          <div class="skill-category glass reveal reveal-delay-3">
+            <h3 class="skill-category-title">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+              Tools &amp; Soft Skills
+            </h3>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Git</span><span>75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Microsoft Office</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-top"><span>Customer Support</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. PROJECTS ================= -->
+    <!-- EDIT: ganti gambar, deskripsi, dan link setiap project dengan project asli Anda -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Projects</span>
+          <h2 class="section-title">Project <span class="highlight">Terbaru</span></h2>
+          <p class="section-desc">Beberapa contoh project yang merepresentasikan kemampuan teknis saya.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <img src="assets/images/projects/project-1.svg" alt="Tampilan project Sistem Ticketing IT Support" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Sistem Ticketing IT Support</h3>
+              <p>Aplikasi sederhana untuk mencatat &amp; melacak keluhan/tiket masalah IT dari pengguna.</p>
+              <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal reveal-delay-1">
+            <div class="project-thumb">
+              <img src="assets/images/projects/project-2.svg" alt="Tampilan project Website Company Profile Responsif" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Website Company Profile Responsif</h3>
+              <p>Website profil perusahaan dengan desain modern &amp; tampilan responsif di semua perangkat.</p>
+              <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal reveal-delay-2">
+            <div class="project-thumb">
+              <img src="assets/images/projects/project-3.svg" alt="Tampilan project Tool Diagnostic Jaringan" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Tool Diagnostic Jaringan</h3>
+              <p>Utility sederhana untuk memeriksa status koneksi, ping, dan kecepatan jaringan.</p>
+              <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">Networking</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal reveal-delay-3">
+            <div class="project-thumb">
+              <img src="assets/images/projects/project-4.svg" alt="Tampilan project Dashboard Monitoring Perangkat" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Dashboard Monitoring Perangkat</h3>
+              <p>Dashboard visual untuk memantau status &amp; performa perangkat secara sederhana.</p>
+              <div class="project-tags"><span class="tag">HTML</span><span class="tag">JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+                <a href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. EXPERIENCE ================= -->
+    <!-- EDIT: sesuaikan tahun & isi timeline dengan perjalanan Anda -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">Perjalanan &amp; <span class="highlight">Pengalaman</span></h2>
+          <p class="section-desc">Timeline singkat perjalanan belajar dan pengalaman saya di dunia IT.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2023 — Fondasi</span>
+              <h3>Rekayasa Perangkat Lunak</h3>
+              <span class="org">SMK Taruna Bangsa</span>
+              <p>Memulai pendidikan di SMK Taruna Bangsa, jurusan Rekayasa Perangkat Lunak. Membangun dasar teknis di dua sisi: pengembangan aplikasi web (HTML, CSS, Laravel) serta pengoperasian sistem berbasis Linux dan perakitan sekaligus troubleshooting perangkat keras PC.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal reveal-delay-1">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2026 — Melanjutkan Langkah</span>
+              <h3>Mahasiswa Teknologi Informasi</h3>
+              <span class="org">Universitas Jenderal Soedirman</span>
+              <p>Lulus dari SMK Taruna Bangsa dan melanjutkan studi di Universitas Jenderal Soedirman, memperdalam pemahaman di bidang teknologi informasi.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal reveal-delay-2">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2030 — Target</span>
+              <h3>IT Support Profesional</h3>
+              <span class="org">Target Karier</span>
+              <p>Berkarier sebagai IT Support yang menguasai troubleshooting hardware dan software, administrasi sistem Linux, serta mampu menerjemahkan masalah teknis ke dalam solusi yang mudah dipahami pengguna.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. CERTIFICATES / ROADMAP ================= -->
+    <!-- Catatan jujur: belum ada sertifikat resmi, jadi section ini ditampilkan sebagai
+         roadmap/target sertifikasi (bukan klaim sudah selesai). Setelah Anda benar-benar
+         lulus salah satu program di bawah, ganti badge "Target" -> tanggal lulus asli
+         dan cert-link -> link verifikasi sertifikat Anda. -->
+    <section id="certificates">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Certification Roadmap</span>
+          <h2 class="section-title">Target <span class="highlight">Sertifikasi</span></h2>
+          <p class="section-desc">Program yang sedang saya rencanakan untuk memperkuat kompetensi IT Support secara formal.</p>
+        </div>
+
+        <div class="certificates-grid">
+          <article class="cert-card glass reveal">
+            <div class="cert-thumb"><img src="assets/images/cert-placeholder.svg" alt="Target sertifikasi Google IT Support Professional Certificate" loading="lazy" /></div>
+            <h4>Google IT Support Professional Certificate</h4>
+            <p class="cert-issuer">Google &middot; via Coursera</p>
+            <span class="cert-date">Target: 2026</span>
+            <a href="https://www.coursera.org/professional-certificates/google-it-support" target="_blank" rel="noopener" class="cert-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Program
+            </a>
+          </article>
+
+          <article class="cert-card glass reveal reveal-delay-1">
+            <div class="cert-thumb"><img src="assets/images/cert-placeholder.svg" alt="Target sertifikasi CompTIA A+" loading="lazy" /></div>
+            <h4>CompTIA A+</h4>
+            <p class="cert-issuer">CompTIA</p>
+            <span class="cert-date">Target: 2027</span>
+            <a href="https://www.comptia.org/certifications/a" target="_blank" rel="noopener" class="cert-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Program
+            </a>
+          </article>
+
+          <article class="cert-card glass reveal reveal-delay-2">
+            <div class="cert-thumb"><img src="assets/images/cert-placeholder.svg" alt="Target sertifikasi Cisco Networking Basics" loading="lazy" /></div>
+            <h4>Networking Basics</h4>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <span class="cert-date">Target: 2027</span>
+            <a href="https://www.netacad.com/courses/networking/networking-basics" target="_blank" rel="noopener" class="cert-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Program
+            </a>
+          </article>
+
+          <article class="cert-card glass reveal reveal-delay-3">
+            <div class="cert-thumb"><img src="assets/images/cert-placeholder.svg" alt="Target sertifikasi Introduction to Linux" loading="lazy" /></div>
+            <h4>Introduction to Linux</h4>
+            <p class="cert-issuer">The Linux Foundation</p>
+            <span class="cert-date">Target: 2028</span>
+            <a href="https://training.linuxfoundation.org/training/introduction-to-linux/" target="_blank" rel="noopener" class="cert-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Program
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. TECH STACK ================= -->
+    <section id="techstack">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title">Teknologi yang <span class="highlight">Dipelajari</span></h2>
+          <p class="section-desc">Tools &amp; teknologi yang saya gunakan dalam belajar maupun mengerjakan project.</p>
+        </div>
+
+        <div class="techstack-grid">
+          <div class="tech-badge glass reveal"><div class="tech-icon" style="background:#0078d4">WIN</div><span>Windows</span></div>
+          <div class="tech-badge glass reveal reveal-delay-1"><div class="tech-icon" style="background:#111827">LNX</div><span>Linux</span></div>
+          <div class="tech-badge glass reveal reveal-delay-2"><div class="tech-icon" style="background:#0ea5a4">NET</div><span>Networking</span></div>
+          <div class="tech-badge glass reveal reveal-delay-3"><div class="tech-icon" style="background:#d83b01">OFC</div><span>MS Office</span></div>
+          <div class="tech-badge glass reveal"><div class="tech-icon" style="background:#e34c26">5</div><span>HTML5</span></div>
+          <div class="tech-badge glass reveal reveal-delay-1"><div class="tech-icon" style="background:#2965f1">3</div><span>CSS3</span></div>
+          <div class="tech-badge glass reveal reveal-delay-2"><div class="tech-icon" style="background:#f0db4f;color:#111">JS</div><span>JavaScript</span></div>
+          <div class="tech-badge glass reveal reveal-delay-3"><div class="tech-icon" style="background:#f05032">GIT</div><span>Git</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. CONTACT ================= -->
+    <!-- EDIT: ganti seluruh value & href dengan kontak asli Anda -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-title">Mari <span class="highlight">Terhubung</span></h2>
+          <p class="section-desc">Terbuka untuk peluang magang, kerja sama, maupun sekadar berdiskusi seputar IT.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card glass reveal">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg></div>
+            <div>
+              <h4>Email</h4>
+              <p id="contact-email">gbimoseno@gmail.com</p>
+            </div>
+            <button class="copy-btn" data-copy="gbimoseno@gmail.com">Salin</button>
+          </div>
+
+          <div class="contact-card glass reveal reveal-delay-1">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+62 896-9919-2676</p>
+            </div>
+            <a class="copy-btn" href="https://wa.me/6289699192676" target="_blank" rel="noopener">Chat</a>
+          </div>
+
+          <div class="contact-card glass reveal reveal-delay-2">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>linkedin.com/in/gading-bimoseno-05a496410</p>
+            </div>
+            <a class="copy-btn" href="https://www.linkedin.com/in/gading-bimoseno-05a496410" target="_blank" rel="noopener">Kunjungi</a>
+          </div>
+
+          <div class="contact-card glass reveal reveal-delay-3">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></div>
+            <div>
+              <h4>Instagram</h4>
+              <p>@voltage_master</p>
+            </div>
+            <a class="copy-btn" href="https://www.instagram.com/voltage_master/" target="_blank" rel="noopener">Kunjungi</a>
+          </div>
+
+          <div class="contact-card glass reveal reveal-delay-4">
+            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></div>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/Reduce-34</p>
+            </div>
+            <a class="copy-btn" href="https://github.com/Reduce-34" target="_blank" rel="noopener">Kunjungi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <div class="footer-brand">Gading<span style="color:var(--accent-2)">.</span>dev</div>
+        <p class="footer-tagline">Calon IT Support &middot; Mahasiswa Teknik Komputer</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/voltage_master/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/gading-bimoseno-05a496410" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/Reduce-34" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+        </a>
+        <a href="mailto:gbimoseno@gmail.com" class="social-icon" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg>
+        </a>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; <span id="current-year"></span> Gading Bimoseno Alfaiz. Dibangun dengan HTML, CSS &amp; JavaScript murni.</p>
+  </footer>
+
+  <!-- ================= Back to Top ================= -->
+  <button class="back-to-top" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <!-- ================= Scripts ================= -->
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/cursor.js"></script>
+  <script src="assets/js/typing.js"></script>
+  <script src="assets/js/scrollReveal.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
